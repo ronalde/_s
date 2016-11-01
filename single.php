@@ -4,7 +4,7 @@
  *
  * @link https://developer.wordpress.org/themes/basics/template-hierarchy/#single-post
  *
- * @package _s
+ * @package La_cocina_underscore_wp_theme
  */
 
 get_header(); ?>

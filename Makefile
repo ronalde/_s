@@ -20,7 +20,7 @@ all:
 	## 3. replace 'Text Domain: _s' with 'Text Domain: themedir'
 	##    in style.css and style.scss
 	sed -i "s#\(Text Domain:\s\)_s#\1${theme_name}#g" ${sass_files}
-	## 4. replace ' _s' with escaped theme name: 
+	## 4. replace ' _s' with escaped theme name 
 	sed -i "s#\s_s# ${theme_name_esc}#g" ${php_files} ${sass_files}
 	## 5. replace ' _s-' with: ' themedir-'
-	sed -i "s#\s_s-# ${theme_dir}-#g" 
+	sed -i "s#_s-#${theme_dir}-#g" ${php_files}

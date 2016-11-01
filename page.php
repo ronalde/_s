@@ -9,7 +9,7 @@
  *
  * @link https://codex.wordpress.org/Template_Hierarchy
  *
- * @package _s
+ * @package La_cocina_underscore_wp_theme
  */
 
 get_header(); ?>
